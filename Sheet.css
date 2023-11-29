@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.top {
+    background-color: red;
+}
