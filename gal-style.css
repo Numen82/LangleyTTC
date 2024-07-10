@@ -1,0 +1,5 @@
+#gal-holder {
+    background-color: blue;
+    min-height: calc(100vh - 90px);
+    height: auto;
+}
