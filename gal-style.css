@@ -1,5 +1,36 @@
-#gal-holder {
-    background-color: blue;
+.gal {
+    margin-left: auto;
+    background-color: #999999;
     min-height: calc(100vh - 90px);
     height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.gal-holder {
+    width: 1360px;
+    min-height: calc(100vh - 90px);
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.image {
+    background-color: #3d3d3d;
+    display: none;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10%;
+    background-size: cover;
+}
+
+.image:hover {
+    transform: scale(110%);
+}
+
+.image:click {
+    transform: translate(30px);
 }
