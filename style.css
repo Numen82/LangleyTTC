@@ -63,7 +63,7 @@ section {
 #hero div {
     width: auto;
     height: 840px;
-    background-image: linear-gradient(to right, #00798C 30%, rgba(0, 121, 140, 0));
+    background-image: linear-gradient(to right, #00798C 10%, rgba(0, 121, 140, 0));
 }
 
 #hero div h1 {
@@ -103,7 +103,7 @@ section {
 }
 
 .scroller {
-    max-width: 1600px;
+    max-width: 1400px;
     overflow: auto;
     /*border: 3px solid lime;*/
 }

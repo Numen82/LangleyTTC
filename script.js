@@ -44,12 +44,12 @@ function setImg(num, image) {
     image.style.display = "block";
     image.style.backgroundImage = "url(img/TTCImgs/club\\ \\(" +  num + "\\).jpg)";
     image.setAttribute("id", "image " + num)
-    //image.setAttribute("onclick", "enlarge()")
+    //image.setAttribute("onclick", "enlarge()") //Don't use this code, probably use an eventListener
     return image;
 }
 
 //TODO: Do this later with help from this
 //https://www.geeksforgeeks.org/toggle-class-by-adding-the-class-name-when-element-is-clicked-and-remove-when-clicked-outside/
-function enlarge() {
-    image.style.transform = "translate(30px)";
+function enlarge(elem) {
+    elem.style.transform = "translate(30px)";
 }
